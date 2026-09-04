@@ -1,0 +1,496 @@
+*{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: block;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    background-color: #fcfcfc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbar .container-nav .nav-logo{
+    background-color: transparent;
+    text-decoration: none;
+    color: #d1ab7f;
+    font-size: 20px;
+    margin: 0 15px;
+    float: left;
+}
+
+.navbar .container-nav .nav-logo h1{
+    background-color: transparent;
+    color: #d1ab7f;
+}
+
+.navbar .container-nav .nav-links{
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+    margin: 15px;
+    float: right;
+    text-align: center;
+}
+
+.navbar .container-nav .nav-links li{
+    background-color: transparent;
+    display: inline-block;
+    padding: 6px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.navbar .container-nav .nav-links li a{
+    align-items: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #0d0d0d;
+    transition: all 0.2s;
+}
+
+.navbar .container-nav .nav-links li a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: #d1ab7f;
+}
+
+.banner{
+    background-image: url('c:\\Users\\SIGMA\\Desktop\\a\\bakery\\images\\banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    float: both;
+}
+
+.banner .banner-container{
+    background-color: transparent;
+    display: center;
+}
+
+.banner .banner-container .banner-content{
+    background-color: transparent;
+    display: center;
+    padding: 350px;
+}
+
+.banner .banner-container .banner-content h1{
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 70px;
+}
+
+.banner .banner-container .banner-content p{
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.banner .banner-container .banner-content .btn-banner{
+    size: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #d1ab7f;
+    color: #fff;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    transform: none;
+}
+
+.banner .banner-container .banner-content .btn-banner:hover{
+    border: 2px solid #d1ab7f;
+    background-color: transparent;
+    color: #d1ab7f;
+    border-radius: 5px;
+    transition: all 0.3s;
+    transform: none;
+}
+
+.hero {
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+.hero .hero-container{
+    background-color: #ffffff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-container .hero-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    float: left;
+    width: 50%;
+}
+
+.hero .hero-container .hero-content .p-1{
+    color: #d1ab7f;
+    text-align: left;
+    float: left;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.hero .hero-container .hero-content .h-1{
+    padding: 10px;
+    text-align: left;
+    color: #000000;
+    float: left;
+}
+
+.hero .hero-container .hero-content .p-2{
+    color: #000000;
+    float: left;
+    padding: 10px;
+    text-align: left;
+}
+
+.hero .hero-container .hero-content .p-3{
+    color: #b7b7b7;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hero .hero-container .hero-content .btn-hero{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #d1ab7f;
+    color: #fff;
+    padding: 10px 20px;
+    float: left;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    transform: none;
+}
+
+.hero .hero-container .hero-content .btn-hero:hover{
+    background-color: transparent;
+    border: 2px solid #d1ab7f;
+    color: #d1ab7f;
+    transition: all 0.5s;
+    transform: none;
+}
+
+.hero .hero-container .hero-image{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    float: right;
+    width: 50%;
+}
+
+.menu {
+    background-color: #f9f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 20px;
+    width: 100%;
+}
+
+.menu .container {
+    background-color: transparent;
+    width: 80%;
+}
+
+.menu .container h2{
+    background-color: transparent;
+}
+
+.menu .container p{
+    background-color: transparent;
+}
+
+.cards {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 50px;
+}
+
+.card {
+    background-color: transparent;
+    width: 22%;
+}
+
+.card img {
+    background-color: transparent;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.card h4 {
+    background-color: transparent;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-block: 13px;
+    transition: all 0.5s;
+}
+
+.card p {
+    background-color: transparent;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card:hover h4 {
+    color: #d1ab7f;
+}
+
+.menu-btn {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #d1ab7f;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    transform: none;
+}
+
+.menu-btn:hover {
+    background-color: transparent;
+    border: 2px solid #d1ab7f;
+    color: #d1ab7f;
+    transition: all 0.5s;
+    transform: none;
+}
+
+.about {
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.about .about-container{
+    background-color: #ffffff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about-container .about-content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    float: left;
+    width: 50%;
+}
+
+.about .about-container .about-content .p-1{
+    color: #d1ab7f;
+    text-align: left;
+    float: left;
+    padding: 5px;
+}
+
+.about .about-container .about-content .h-1{
+    padding: 10px;
+    text-align: left;
+    color: #000000;
+    float: left;
+    padding: 5px;
+}
+
+.about .about-container .about-content .p-2{
+    color: #000000;
+    float: left;
+    text-align: left;
+    padding: 5px;
+}
+
+.about .about-container .about-content .p-3{
+    color: #b7b7b7;
+    float: left;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.about .about-container .about-content .btn-about{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #222222;
+    color: #fff;
+    padding: 10px 20px;
+    float: left;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    transform: none;
+}
+
+.about .about-container .about-content .btn-about:hover{
+    background-color: transparent;
+    border: 2px solid #d1ab7f;
+    color: #d1ab7f;
+    transition: all 0.5s;
+    transform: none;
+}
+
+.review {
+    background-image: url('c:\\Users\\SIGMA\\Desktop\\a\\bakery\\images\\review-bg.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+.review .review-container {
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    float: both;
+}
+
+.review .review-container h1{
+    padding-top: 70px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.review .review-container p{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.review .review-container .review-cards {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.review .review-container .review-card {
+    background-color: transparent;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.review .review-container .review-card img{
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.review .review-container .review-card h4{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.review .review-container .review-card p{
+    font-size: 15px;
+}
+
+.blog{
+    background-color: #f9f9ff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog .blog-container{
+    background-color: transparent;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog .blog-container h1{
+    background-color: transparent;
+    color: #000000;
+}
+
+.blog .blog-container p{
+    background-color: transparent;
+    color: #000000;
+}
+
+.blog .blog-container .blog-cards{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.blog .blog-container .blog-cards .blog-card{
+    background-color: transparent;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.blog .blog-container .blog-cards .blog-card h4{
+    background-color: transparent;
+    color: #222222;
+}
+
+.blog .blog-container .blog-cards .blog-card p{
+    background-color: transparent;
+    color: #cdc9c8;
+}
+
+.footer-container{
+    background-color: #04091e;
+}
+
+.footer-container .footer-content{
+    background-color: #04091e;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-container .footer-content h1{
+    background-color: #04091e;
+    color: #fff;
+}
+
+.footer-container .footer-content p{
+    background-color: #04091e;
+    color: #fff;
+}
